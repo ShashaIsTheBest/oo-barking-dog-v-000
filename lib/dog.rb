@@ -14,5 +14,5 @@ end
 # Your code goes here!
 fido = Dog.new
 fido.name = "Fido"
-puts lassie.name
+puts fido.name
 fido.bark
