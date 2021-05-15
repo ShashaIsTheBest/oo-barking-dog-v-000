@@ -1,10 +1,10 @@
 class Dog
   def name= (dog_name)
-    "Fido" = dog_name
+    @this_dogs_name = dog_name
   end
 
   def name
-    Fido
+    @this_dogs_name
   end
 
   def bark
@@ -14,4 +14,5 @@ end
 # Your code goes here!
 fido = Dog.new
 fido.name = "Fido"
+puts lassie.name
 fido.bark
